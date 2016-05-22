@@ -4,7 +4,7 @@ var expect = require('chai').expect;
 var renderer = require('..');
 
 describe('a clock face', () => {
-    describe('it should render the intervals', () => {
+    it('should render the intervals', () => {
         const expected =
 `        o
     o       o
